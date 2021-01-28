@@ -39,16 +39,16 @@ function MediaCard({ profilePic, title, time, body, imgUrl }) {
 ReactDOM.render(
   <>
     <MediaCard profilePic="https://image.shutterstock.com/image-vector/profile-icon-vector-logo-template-260nw-1412217830.jpg"
-      title="Owais" time={new Date().toLocaleTimeString()} body="Height is optional, if no height is specified the image will be a square.Example:"
+      title="Owais" time={new Date().toLocaleTimeString()} body="A computer keyboard is a typewriter-style device[1] which uses an arrangement of buttons or keys to act as mechanical levers or electronic switches. Replacing early punched cards and paper tape technology, interaction via teleprinter-style keyboards have been the main input method for computers since the 1970s, supplemented by the computer mouse since the 1980s.:"
       imgUrl="https://ichef.bbci.co.uk/news/976/cpsprodpb/13E3C/production/_106186418_gettyimages-471395639.jpg" />
 
-    <MediaCard profilePic="https://image.shutterstock.com/image-vector/profile-icon-vector-logo-template-260nw-1412217830.jpg"
-      title="Owais" time={new Date().toLocaleTimeString()} body="Height is optional, if no height is specified the image will be a square.Example:"
-      imgUrl="https://ichef.bbci.co.uk/news/976/cpsprodpb/13E3C/production/_106186418_gettyimages-471395639.jpg" />
+    <MediaCard profilePic="https://image.freepik.com/free-vector/machine-warrior-e-sports-logo-design-machine-warrior-gaming-mascot-twitch-profile_74154-43.jpg"
+      title="Owais" time={new Date().toLocaleTimeString()} body="Karton (Carton) is the debut studio album by German recording artist Mark Forster. It was released by Four Music on 1 June 2012 in.:"
+      imgUrl="https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max" />
 
-    <MediaCard profilePic="https://image.shutterstock.com/image-vector/profile-icon-vector-logo-template-260nw-1412217830.jpg"
-      title="Owais" time={new Date().toLocaleTimeString()} body="Height is optional, if no height is specified the image will be a square.Example:"
-      imgUrl="https://ichef.bbci.co.uk/news/976/cpsprodpb/13E3C/production/_106186418_gettyimages-471395639.jpg" />
+    <MediaCard profilePic="https://previews.123rf.com/images/muslihalamin/muslihalamin1811/muslihalamin181100409/115438002-simple-real-estate-logo-house-logo-design-.jpg"
+      title="Owais" time={new Date().toLocaleTimeString()} body="For the act of making buildings, see Construction. For structures not intended for human use, see Nonbuilding structure. For other uses, see Building (disambiguation). For another use of , see Casio Edifice..:"
+      imgUrl="https://i.pinimg.com/originals/be/98/c2/be98c20386ceb5f69a43879f2a51927e.jpg" />
   </>,
   document.getElementById('root')
 )
